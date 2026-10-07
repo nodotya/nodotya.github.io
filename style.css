@@ -7,3 +7,33 @@ li{color:purple;}
 padding: 32px;
 border-radius: 12px;
 box-shadow: 0 2px 8px rgba(0,0,0,0,1);}
+.tags{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+}
+
+.tags li{
+    background-color: #2563eb;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 999px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto 24px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 16px;
+}
